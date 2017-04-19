@@ -1,0 +1,1151 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/matheuss/google-translate-api#readme"
+
+    >google-translate-api (v2.2.2)</a>
+</h1>
+<h4>A free and unlimited API for Google Translate</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.google-translate-api">module google-translate-api</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.google-translate-api.google-translate-api">
+            function <span class="apidocSignatureSpan"></span>google-translate-api
+            <span class="apidocSignatureSpan">(text, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">google-translate-api.</span>languages</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.google-translate-api.languages">module google-translate-api.languages</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.google-translate-api.languages.getCode">
+            function <span class="apidocSignatureSpan">google-translate-api.languages.</span>getCode
+            <span class="apidocSignatureSpan">(desiredLang)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.google-translate-api.languages.isSupported">
+            function <span class="apidocSignatureSpan">google-translate-api.languages.</span>isSupported
+            <span class="apidocSignatureSpan">(desiredLang)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>af</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ar</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>auto</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>az</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>be</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>bg</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>bn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>bs</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ca</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ceb</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>co</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>cs</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>cy</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>da</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>de</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>el</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>en</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>eo</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>es</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>et</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>eu</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>fa</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>fi</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>fr</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>fy</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ga</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>gd</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>gl</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>gu</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ha</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>haw</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>hi</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>hmn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>hr</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ht</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>hu</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>hy</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>id</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ig</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>is</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>it</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>iw</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ja</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>jw</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ka</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>kk</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>km</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>kn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ko</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ku</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ky</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>la</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>lb</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>lo</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>lt</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>lv</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ma</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>mg</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>mi</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>mk</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ml</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>mn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>mr</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ms</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>mt</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>my</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ne</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>nl</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>no</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ny</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>pl</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>pt</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ro</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ru</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sd</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>si</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sk</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sl</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sm</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>so</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sq</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sr</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>st</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>su</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sv</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>sw</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ta</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>te</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>tg</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>th</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>tl</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>tr</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>uk</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>ur</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>uz</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>vi</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>xh</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>yi</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>yo</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>zh-cn</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>zh-tw</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">google-translate-api.languages.</span>zu</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.google-translate-api" id="apidoc.module.google-translate-api">module google-translate-api</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.google-translate-api.google-translate-api" id="apidoc.element.google-translate-api.google-translate-api">
+        function <span class="apidocSignatureSpan"></span>google-translate-api
+        <span class="apidocSignatureSpan">(text, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function translate(text, opts) {
+    opts = opts || {};
+
+    var e;
+    [opts.from, opts.to].forEach(function (lang) {
+        if (lang &#x26;&#x26; !languages.isSupported(lang)) {
+            e = new Error();
+            e.code = 400;
+            e.message = &#x27;The language \&#x27;&#x27; + lang + &#x27;\&#x27; is not supported&#x27;;
+        }
+    });
+    if (e) {
+        return new Promise(function (resolve, reject) {
+            reject(e);
+        });
+    }
+
+    opts.from = opts.from || &#x27;auto&#x27;;
+    opts.to = opts.to || &#x27;en&#x27;;
+
+    opts.from = languages.getCode(opts.from);
+    opts.to = languages.getCode(opts.to);
+
+    return token.get(text).then(function (token) {
+        var url = &#x27;https://translate.google.com/translate_a/single&#x27;;
+        var data = {
+            client: &#x27;t&#x27;,
+            sl: opts.from,
+            tl: opts.to,
+            hl: opts.to,
+            dt: [&#x27;at&#x27;, &#x27;bd&#x27;, &#x27;ex&#x27;, &#x27;ld&#x27;, &#x27;md&#x27;, &#x27;qca&#x27;, &#x27;rw&#x27;, &#x27;rm&#x27;, &#x27;ss&#x27;, &#x27;t&#x27;],
+            ie: &#x27;UTF-8&#x27;,
+            oe: &#x27;UTF-8&#x27;,
+            otf: 1,
+            ssel: 0,
+            tsel: 0,
+            kc: 7,
+            q: text
+        };
+        data[token.name] = token.value;
+
+        return url + &#x27;?&#x27; + querystring.stringify(data);
+    }).then(function (url) {
+        return got(url).then(function (res) {
+            var result = {
+                text: &#x27;&#x27;,
+                from: {
+                    language: {
+                        didYouMean: false,
+                        iso: &#x27;&#x27;
+                    },
+                    text: {
+                        autoCorrected: false,
+                        value: &#x27;&#x27;,
+                        didYouMean: false
+                    }
+                },
+                raw: &#x27;&#x27;
+            };
+
+            if (opts.raw) {
+                result.raw = res.body;
+            }
+
+            var body = safeEval(res.body);
+            body[0].forEach(function (obj) {
+                if (obj[0] !== undefined) {
+                    result.text += obj[0];
+                }
+            });
+
+            if (body[2] === body[8][0][0]) {
+                result.from.language.iso = body[2];
+            } else {
+                result.from.language.didYouMean = true;
+                result.from.language.iso = body[8][0][0];
+            }
+
+            if (body[7] !== undefined &#x26;&#x26; body[7][0] !== undefined) {
+                var str = body[7][0];
+
+                str = str.replace(/&#x3c;b&#x3e;&#x3c;i&#x3e;/g, &#x27;[&#x27;);
+                str = str.replace(/&#x3c;\/i&#x3e;&#x3c;\/b&#x3e;/g, &#x27;]&#x27;);
+
+                result.from.text.value = str;
+
+                if (body[7][5] === true) {
+                    result.from.text.autoCorrected = true;
+                } else {
+                    result.from.text.didYouMean = true;
+                }
+            }
+
+            return result;
+        }).catch(function (err) {
+            var e;
+            e = new Error();
+            if (err.statusCode !== undefined &#x26;&#x26; err.statusCode !== 200) {
+                e.code = &#x27;BAD_REQUEST&#x27;;
+            } else {
+                e.code = &#x27;BAD_NETWORK&#x27;;
+            }
+            throw e;
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.google-translate-api.languages" id="apidoc.module.google-translate-api.languages">module google-translate-api.languages</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.google-translate-api.languages.getCode" id="apidoc.element.google-translate-api.languages.getCode">
+        function <span class="apidocSignatureSpan">google-translate-api.languages.</span>getCode
+        <span class="apidocSignatureSpan">(desiredLang)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getCode(desiredLang) {
+    if (!desiredLang) {
+        return false;
+    }
+    desiredLang = desiredLang.toLowerCase();
+
+    if (langs[desiredLang]) {
+        return desiredLang;
+    }
+
+    var keys = Object.keys(langs).filter(function (key) {
+        if (typeof langs[key] !== &#x27;string&#x27;) {
+            return false;
+        }
+
+        return langs[key].toLowerCase() === desiredLang;
+    });
+
+    return keys[0] || false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        reject(e);
+    });
+}
+
+opts.from = opts.from || &#x27;auto&#x27;;
+opts.to = opts.to || &#x27;en&#x27;;
+
+opts.from = languages.<span class="apidocCodeKeywordSpan">getCode</span>(opts.from);
+opts.to = languages.getCode(opts.to);
+
+return token.get(text).then(function (token) {
+    var url = &#x27;https://translate.google.com/translate_a/single&#x27;;
+    var data = {
+        client: &#x27;t&#x27;,
+        sl: opts.from,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.google-translate-api.languages.isSupported" id="apidoc.element.google-translate-api.languages.isSupported">
+        function <span class="apidocSignatureSpan">google-translate-api.languages.</span>isSupported
+        <span class="apidocSignatureSpan">(desiredLang)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isSupported(desiredLang) {
+    return Boolean(getCode(desiredLang));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var languages = require(&#x27;./languages&#x27;);
+
+function translate(text, opts) {
+opts = opts || {};
+
+var e;
+[opts.from, opts.to].forEach(function (lang) {
+    if (lang &#x26;&#x26; !languages.<span class="apidocCodeKeywordSpan">isSupported</span>(lang)) {
+        e = new Error();
+        e.code = 400;
+        e.message = &#x27;The language \&#x27;&#x27; + lang + &#x27;\&#x27; is not supported&#x27;;
+    }
+});
+if (e) {
+    return new Promise(function (resolve, reject) {
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
